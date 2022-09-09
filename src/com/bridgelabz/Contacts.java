@@ -97,5 +97,7 @@ public class Contacts {
 		return "Contacts [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city=" + city
 				+ ", state=" + state + ", zipCode=" + zipCode + ", mobileNumber=" + mobileNumber + ", emailId="
 				+ emailId + "]";
-	}       
+	}
+
+	      
 }

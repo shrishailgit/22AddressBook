@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 
+
 public class Main {
 
 		public static void main(String[] args) {
@@ -13,7 +14,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         HashMap<String, AddressBook> services = new HashMap<>();
         System.out.println(" Enter Unique Address Book Name ");
-        String addressBookNameAsKey = scanner.nextLine();
+        
+        String addressBookNameAsKey = scanner.nextLine().toUpperCase();
         
         System.out.println(addressBookNameAsKey);
         AddressBook addressBookNameValue = new AddressBook();
